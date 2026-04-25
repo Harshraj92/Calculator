@@ -29,7 +29,7 @@ class Calc{
         double Square=Math.sqrt(a);
         System.out.println("Square root of " + a + " : " + Square);
         double Power = Math.pow(a,b);
-        System.out.println("b to the power a : " + Power);
+        System.out.println(b+ " to the power " + a + " : " + Power);
         Calc obj = new Calc();
         obj.Factorial(b);
         obj.cube(a);
