@@ -24,7 +24,9 @@ class Calc{
         System.out.println("Addition : " + (a+b));
         System.out.println("Substraction : " + (a-b));
         System.out.println("Multiplication : " + (a*b));
+        if(b!=0){
         System.out.println("Division : " + (a/b));
+        }
         System.out.println("Scientific Calculator");
         double Square=Math.sqrt(a);
         System.out.println("Square root of " + a + " : " + Square);
